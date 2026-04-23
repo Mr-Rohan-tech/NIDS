@@ -1,0 +1,133 @@
++---dashboard
+ª   ª   ª   app.jsx
+ª   ª   ª   index.css
+ª   ª   ª   main.jsx
+ª   ª   ª   
+ª   ª   +---admin
+ª   ª   ª   ª   adminapp.jsx
+ª   ª   ª   ª   
+ª   ª   ª   +---components
+ª   ª   ª   ª   +---charts
+ª   ª   ª   ª   +---layout
+ª   ª   ª   ª   ª       adminlayout.jsx
+ª   ª   ª   ª   ª       navbar.jsx
+ª   ª   ª   ª   ª       sidebar.jsx
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---tables
+ª   ª   ª   ª   +---ui
+ª   ª   ª   +---context
+ª   ª   ª   ª       adminauthcontext.jsx
+ª   ª   ª   ª       
+ª   ª   ª   +---hooks
+ª   ª   ª   ª       useadminwebsocket.js
+ª   ª   ª   ª       
+ª   ª   ª   +---pages
+ª   ª   ª   ª   ª   analytics.jsx
+ª   ª   ª   ª   ª   attackmap.jsx
+ª   ª   ª   ª   ª   clientdetail.jsx
+ª   ª   ª   ª   ª   clients.jsx
+ª   ª   ª   ª   ª   dashboard.jsx
+ª   ª   ª   ª   ª   datamanagement.jsx
+ª   ª   ª   ª   ª   detectioncontrol.jsx
+ª   ª   ª   ª   ª   globalalerts.jsx
+ª   ª   ª   ª   ª   globalevents.jsx
+ª   ª   ª   ª   ª   globalpackets.jsx
+ª   ª   ª   ª   ª   monitoring.jsx
+ª   ª   ª   ª   ª   settings.jsx
+ª   ª   ª   ª   ª   users.jsx
+ª   ª   ª   ª   ª   
+ª   ª   ª   ª   +---client-tabs
+ª   ª   ª   ª           alertstab.jsx
+ª   ª   ª   ª           controlstab.jsx
+ª   ª   ª   ª           eventstab.jsx
+ª   ª   ª   ª           logstab.jsx
+ª   ª   ª   ª           overviewtab.jsx
+ª   ª   ª   ª           packetstab.jsx
+ª   ª   ª   ª           securitytab.jsx
+ª   ª   ª   ª           traffictab.jsx
+ª   ª   ª   ª           
+ª   ª   ª   +---routes
+ª   ª   ª   ª       adminroutes.jsx
+ª   ª   ª   ª       
+ª   ª   ª   +---services
+ª   ª   ª   ª       adminapi.js
+ª   ª   ª   ª       alertservice.js
+ª   ª   ª   ª       clientservice.js
+ª   ª   ª   ª       eventservice.js
+ª   ª   ª   ª       packetservice.js
+ª   ª   ª   ª       
+ª   ª   ª   +---styles
+ª   ª   ª           admin.css
+ª   ª   ª           
+ª   ª   +---auth
+ª   ª   ª   +---components
+ª   ª   ª   ª       authcard.jsx
+ª   ª   ª   ª       authlayout.jsx
+ª   ª   ª   ª       
+ª   ª   ª   +---context
+ª   ª   ª   ª       authcontext.jsx
+ª   ª   ª   ª       
+ª   ª   ª   +---pages
+ª   ª   ª   ª       forgotpassword.jsx
+ª   ª   ª   ª       login.jsx
+ª   ª   ª   ª       register.jsx
+ª   ª   ª   ª       
+ª   ª   ª   +---services
+ª   ª   ª           authservice.js
+ª   ª   ª           
+ª   ª   +---client
+ª   ª   ª   ª   clientapp.jsx
+ª   ª   ª   ª   
+ª   ª   ª   +---components
+ª   ª   ª   ª   +---charts
+ª   ª   ª   ª   +---layout
+ª   ª   ª   ª   ª       clientlayout.jsx
+ª   ª   ª   ª   ª       navbar.jsx
+ª   ª   ª   ª   ª       sidebar.jsx
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---tables
+ª   ª   ª   ª   +---ui
+ª   ª   ª   +---context
+ª   ª   ª   ª       clientauthcontext.js
+ª   ª   ª   ª       
+ª   ª   ª   +---hooks
+ª   ª   ª   ª       useclientwebsocket.js
+ª   ª   ª   ª       
+ª   ª   ª   +---pages
+ª   ª   ª   ª       alertdetail.jsx
+ª   ª   ª   ª       alerts.jsx
+ª   ª   ª   ª       dashboard.jsx
+ª   ª   ª   ª       devices.jsx
+ª   ª   ª   ª       eventdetail.jsx
+ª   ª   ª   ª       events.jsx
+ª   ª   ª   ª       packetanalytics.jsx
+ª   ª   ª   ª       packetdetail.jsx
+ª   ª   ª   ª       packets.jsx
+ª   ª   ª   ª       reports.jsx
+ª   ª   ª   ª       settings.jsx
+ª   ª   ª   ª       traffic.jsx
+ª   ª   ª   ª       
+ª   ª   ª   +---routes
+ª   ª   ª   ª       clientroutes.jsx
+ª   ª   ª   ª       
+ª   ª   ª   +---services
+ª   ª   ª   ª       alertservice.js
+ª   ª   ª   ª       clientapi.js
+ª   ª   ª   ª       eventservice.js
+ª   ª   ª   ª       packetservice.js
+ª   ª   ª   ª       
+ª   ª   ª   +---styles
+ª   ª   ª           client.css
+ª   ª   ª           
+ª   ª   +---shared
+ª   ª       +---components
+ª   ª       ª       loader.jsx
+ª   ª       ª       modal.jsx
+ª   ª       ª       statcard.jsx
+ª   ª       ª       
+ª   ª       +---hooks
+ª   ª       ª       usefetch.js
+ª   ª       ª       
+ª   ª       +---utils
+ª   ª               constants.js
+ª   ª               formatdate.js
